@@ -10,4 +10,4 @@
 
 ## Tác giả
 
-Phong Nguyễn - CNTT46 - 2024001
+Ngô Văn Phong - CTK46A
