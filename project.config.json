@@ -1,0 +1,16 @@
+{
+  "author": "Ngo Van Phong - CTK46A",
+  "student_id": "2212440",
+  "class": "CTK46A",
+  "subject": "Cac cong nghe moi trong PTPM",
+  "year": 2026,
+  "version": "1.0.0",
+  "technologies": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Git"
+  ],
+  "description": "Bai thuc hanh 1 - Hoc tap cac cong nghe moi"
+}
