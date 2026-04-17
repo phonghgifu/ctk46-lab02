@@ -1,4 +1,4 @@
-# Bài Thực Hành 1 - Các Công Nghệ Mới Trong PTPM
+# BÀI THỰC HÀNH 2 NEXT.JS — NỀN TẢNG & ROUTING
 
 ## Thông Tin Dự Án
 
