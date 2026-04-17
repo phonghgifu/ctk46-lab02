@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Counter from "@/components/counter";
 
 export default function HomePage() {
   const skills = [
@@ -46,6 +47,13 @@ export default function HomePage() {
             Liên hệ
           </Link>
         </div>
+      </div>
+
+      {/* Counter section */}
+      <div className="bg-gray-50 rounded-2xl p-8 mb-16 text-center border border-gray-200">
+        <h2 className="text-2xl font-bold mb-6">Bộ đếm tương tác</h2>
+        <p className="text-gray-600 mb-6">Thử bộ đếm Client Component:</p>
+        <Counter />
       </div>
 
       {/* Skills section */}

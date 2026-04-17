@@ -1,3 +1,6 @@
+import ThemeToggle from "@/components/theme-toggle";
+import CopyButton from "@/components/copy-button";
+
 export default function AboutPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
@@ -32,6 +35,18 @@ export default function AboutPage() {
           Tôi đam mê phát triển web, học hỏi các công nghệ mới, giải quyết các bài toán thú vị,
           và chia sẻ kiến thức với cộng đồng.
         </p>
+
+        <h2 className="text-2xl font-semibold mt-8 mb-4">Liên hệ</h2>
+        <div className="flex gap-4 items-center">
+          <CopyButton text="phong.ng.2212440@gmail.com" label="📋 Copy Email" />
+          <span className="text-gray-600">phong.ng.2212440@gmail.com</span>
+        </div>
+
+        <h2 className="text-2xl font-semibold mt-8 mb-4">Cài đặt giao diện</h2>
+        <div className="flex gap-4 items-center">
+          <span className="text-gray-600">Chế độ:</span>
+          <ThemeToggle />
+        </div>
       </div>
     </div>
   );
