@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeToggle from "./theme-toggle";
 
 export default function Navbar() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar() {
           <Link href="/" className="text-xl font-bold text-blue-600">
             Ngô Văn Phong
           </Link>
-          <div className="flex gap-6">
+          <div className="flex gap-6 items-center">
             <Link
               href="/"
               className="text-gray-600 hover:text-blue-600 transition-colors"
@@ -45,6 +46,9 @@ export default function Navbar() {
             >
               Liên hệ
             </Link>
+            <div className="pl-6 border-l">
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       </div>
